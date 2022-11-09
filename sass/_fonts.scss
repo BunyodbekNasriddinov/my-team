@@ -1,0 +1,34 @@
+//*****************
+//***   FONTS   ***
+//*****************
+@font-face {
+  font-family: 'Livvic';
+  src: url('../fonts/Livvic-Regular.woff2') format('woff2'),
+      url('../fonts/Livvic-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Livvic';
+  src: url('../fonts/Livvic-Bold.woff2') format('woff2'),
+      url('../fonts/Livvic-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Livvic';
+  src: url('../fonts/Livvic-SemiBold.woff2') format('woff2'),
+      url('../fonts/Livvic-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+//*********************
+//***   FONTS END   ***
+//*********************

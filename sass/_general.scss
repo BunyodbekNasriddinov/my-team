@@ -11,7 +11,7 @@ html {
 *::after,
 *::before {
   box-sizing: border-box;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
 }
 
 body {
@@ -20,6 +20,7 @@ body {
   height: 100%;
   margin: 0;
   font-family: "Fraunces 9pt", "Arial", sans-serif;
+  background-color: #014e56;
 }
 
 main {
