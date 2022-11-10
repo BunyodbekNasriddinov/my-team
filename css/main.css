@@ -450,6 +450,122 @@ img {
     display: block;
   }
 }
+.hero {
+  padding: 56px 0 0;
+  background-image: url("../../../images/hero-bgi.png");
+  background-repeat: no-repeat;
+  background-size: 100px 200px;
+  background-position: calc(50% - 680px);
+}
+
+.hero__inner {
+  padding-bottom: 200px;
+  background-image: url("../../../images/hero-bgi-2.png");
+  background-size: 358px 100px;
+  background-repeat: no-repeat;
+  background-position: calc(50% + 300px) bottom;
+}
+
+.hero__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__title-inner {
+  width: 100%;
+  max-width: 600px;
+}
+
+.hero__title {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px;
+  color: #ffffff;
+}
+
+.hero__colored-title {
+  color: #f67e7e;
+}
+
+.hero__texts {
+  width: 100%;
+  max-width: 445px;
+  margin: 0;
+  padding: 0;
+}
+
+.hero__line {
+  display: block;
+  width: 50px;
+  height: 4px;
+  background-color: #79c8c7;
+}
+
+.hero__text {
+  margin: 79px 0 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 769px) {
+  .hero {
+    padding: 112px 0 0;
+    background-image: none;
+  }
+  .hero__inner {
+    padding-bottom: 256px;
+    background-position: 50% bottom;
+  }
+  .hero__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .hero__title-inner {
+    width: 50%;
+  }
+  .hero__title {
+    font-size: 64px;
+    line-height: 56px;
+    text-align: center;
+  }
+  .hero__texts {
+    padding: 24px 0 0;
+  }
+  .hero__line {
+    display: none;
+  }
+  .hero__text {
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .hero {
+    padding: 80px 0 0;
+  }
+  .hero__inner {
+    padding-bottom: 200px;
+  }
+  .hero__title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .hero__texts {
+    padding: 18px 0 0;
+  }
+  .hero__text {
+    font-size: 15px;
+    line-height: 28px;
+  }
+}
 .footer {
   padding: 48px 0;
   background-color: #002529;
