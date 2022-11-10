@@ -1,0 +1,103 @@
+.well__inner::before{
+    position: absolute;
+    background-image:url("/images/well-bg.svg");
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    right:-265px;
+    bottom: 0px;
+    content: '';
+}
+.well__inner{
+    position: relative;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 120px 0;
+
+}
+
+.well__tite{
+margin: 0;
+padding: 0;
+
+font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 100px;
+/* identical to box height, or 156% */
+
+
+color: #FFFFFF;
+}
+.well__content{
+width: 100%;
+max-width: 730px;
+}
+.well__span{
+    display: inline-block;
+width: 100%;
+max-width: 50px;
+height: 2px;
+margin-bottom: 40px;
+background: #F67E7E;
+}
+.well__text{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+
+color: #FFFFFF;
+}
+
+@media only screen and (max-width: 768px) {
+    .well__inner::before{
+        right: 0px;;
+    }
+    .well__inner{
+       flex-direction: column;
+    }
+    .well__tite{
+        text-align: center;
+    }
+    .well__content{
+        max-width: 457px;
+    }
+    .well__span{
+        display: none;
+    }
+    .well__text{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .well{
+        overflow: hidden;
+    }
+    .well__inner::before{
+        right: -100px;
+        bottom: -100px;
+       
+    }
+    .well__inner{
+       flex-direction: column;
+    }
+    .well__tite{
+        text-align: center;
+    }
+    .well__content{
+        max-width: 357px;
+    }
+    .well__span{
+        display: none;
+    }
+    .well__text{
+        text-align: center;
+    }
+}
