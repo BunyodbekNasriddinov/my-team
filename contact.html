@@ -1,13 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/main.css">
-  <title>My Team</title>
+  <title>My Team-Contakt-page</title>
 </head>
 <body>
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__inner">
+        <a class="logo" href="./index.html">
+          <img
+            class="logo__pic"
+            width="160"
+            height="40"
+            src="./images/logo.svg"
+            alt="Site logo"
+          />
+        </a>
+        <nav class="navbar">
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a class="navbar__link" href="./index.html">home</a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="./about.html">about</a>
+            </li>
+            <li class="navbar__item contact-btn">
+              <a class="navbar__link contact-link" href="./contact.html"
+                >contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <button class="menu-btn" type="button">
+          <img
+            class="menu-btn__pic"
+            width="20"
+            height="17"
+            src="./images/menu-btn.svg"
+            alt="Menu button"
+          />
+        </button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="ask">
+      <div class="container">
+        <div class="ask__inner">
+          <div class="ask__content">
+             <h1 class="ask__title">Contact</h1>
+            <h2 class="ask__activ">Ask us about</h2>
+            <p class="ask__tekx1 we">The quality of our talent network</p>
+            <p class="ask__tekx2 we">Usage & implementation of our software</p>
+            <p class="ask__tekx3 we">How we help drive innovation</p>
+          </div>
+         
+
+       
+        <form class="ask__form " action="https://echo.htmlacademy.ru/" method="post">
+          <label class="ask__label">
+            <input class="ask__input" type="text" name="text" placeholder="Name"  required>
+          </label>
+          <label class="ask__label">
+            <input class="ask__input" type="Email Address" name="text" placeholder="Email Address"  required>
+          </label>
+          <label class="ask__label">
+            <input class="ask__input" type="text" name="text" placeholder="Company Name " required>
+          </label>
+          <label class="ask__label">
+            <input class="ask__input" type="text" name="text" placeholder="Title"  required>
+          </label>
+          <textarea class="ask__textarea" placeholder="Message" name="Message"  cols="5" rows="5"></textarea>
+          <button class="ask__button" type="submit">submit</button>
+        </form>
+        </div>
+      </div>
+    </section>
+  </main>
   
   <script src="./js/main.js"></script>
 </body>
