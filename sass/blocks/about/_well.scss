@@ -77,8 +77,12 @@ color: #FFFFFF;
 }
 
 @media only screen and (max-width: 568px) {
+    .well{
+        overflow: hidden;
+    }
     .well__inner::before{
-        right: -50px;
+        right: -100px;
+        bottom: -100px;
        
     }
     .well__inner{

@@ -325,7 +325,7 @@ body {
   flex-direction: column;
   height: 100%;
   margin: 0;
-  background: #014E56;
+  background: #3eb1be;
   font-family: "Fraunces 9pt", "Arial", sans-serif;
 }
 
@@ -432,8 +432,12 @@ img {
   }
 }
 @media only screen and (max-width: 568px) {
+  .well {
+    overflow: hidden;
+  }
   .well__inner::before {
-    right: -50px;
+    right: -100px;
+    bottom: -100px;
   }
   .well__inner {
     flex-direction: column;
@@ -599,6 +603,12 @@ img {
   }
   .container {
     max-width: 568px;
+  }
+  .mett__span {
+    left: 120px;
+  }
+  .mett__spani {
+    left: 120px;
   }
 }
 .well__inner::before {
@@ -677,8 +687,12 @@ img {
   }
 }
 @media only screen and (max-width: 568px) {
+  .well {
+    overflow: hidden;
+  }
   .well__inner::before {
-    right: -50px;
+    right: -100px;
+    bottom: -100px;
   }
   .well__inner {
     flex-direction: column;
@@ -845,13 +859,30 @@ img {
   .container {
     max-width: 568px;
   }
+  .mett__span {
+    left: 120px;
+  }
+  .mett__spani {
+    left: 120px;
+  }
 }
 .some {
-  position: relative;
+  background: #012F34;
 }
 
 .some__inner {
   padding: 130px 0;
+}
+
+.some::before {
+  position: absolute;
+  content: "";
+  width: 200px;
+  height: 200px;
+  background: url("/images/some-bg.svg");
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  background-position: top 0 left 0;
 }
 
 .some__title {
@@ -880,12 +911,74 @@ img {
   padding: 0;
 }
 
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .some::before {
+    background-position: top -100px left 0;
+  }
+  .some__title {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .some__img1 {
+    width: 103px;
+    height: 17px;
+  }
+  .some__img2 {
+    width: 120px;
+    height: 13px;
+  }
+  .some__img3 {
+    width: 115px;
+    height: 17px;
+  }
+  .some__img4 {
+    width: 100px;
+    height: 17px;
+  }
+  .some__img5 {
+    width: 78px;
+    height: 35px;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .container {
+    max-width: 327px;
+  }
+  .some::before {
+    background-position: top -100px left -100px;
+  }
+  .some__list {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .some__item {
+    margin-bottom: 56px;
+  }
+  .some__title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
 .some {
-  position: relative;
+  background: #012F34;
 }
 
 .some__inner {
   padding: 130px 0;
+}
+
+.some::before {
+  position: absolute;
+  content: "";
+  width: 200px;
+  height: 200px;
+  background: url("/images/some-bg.svg");
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  background-position: top 0 left 0;
 }
 
 .some__title {
@@ -912,4 +1005,56 @@ img {
 .some__item {
   margin: 0;
   padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .some::before {
+    background-position: top -100px left 0;
+  }
+  .some__title {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .some__img1 {
+    width: 103px;
+    height: 17px;
+  }
+  .some__img2 {
+    width: 120px;
+    height: 13px;
+  }
+  .some__img3 {
+    width: 115px;
+    height: 17px;
+  }
+  .some__img4 {
+    width: 100px;
+    height: 17px;
+  }
+  .some__img5 {
+    width: 78px;
+    height: 35px;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .container {
+    max-width: 327px;
+  }
+  .some::before {
+    background-position: top -100px left -100px;
+  }
+  .some__list {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .some__item {
+    margin-bottom: 56px;
+  }
+  .some__title {
+    font-size: 30px;
+    line-height: 30px;
+  }
 }/*# sourceMappingURL=main.css.map */
