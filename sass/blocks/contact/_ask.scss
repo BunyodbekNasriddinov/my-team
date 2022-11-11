@@ -119,7 +119,7 @@ color: #FFFFFF;
     font-weight: 600;
 font-size: 15px;
 line-height: 25px;
-opacity: 0.8;
+// opacity: 0.8;
 color: #FFFFFF;
 background:none;
 border: none;
@@ -131,7 +131,7 @@ border-bottom: 1px solid #fff;
     color:  #F67E7E;
     border-bottom: 1px solid  #F67E7E;
 }
- .ask__input:hover .ask__input::placeholder{
+ .ask__input::placeholder{
     color:  #ad0404;
     
 }
