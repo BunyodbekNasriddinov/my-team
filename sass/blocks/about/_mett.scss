@@ -106,6 +106,9 @@ color: #FFFFFF;
     left: 145px;
    
 }
+.mett__span:hover{
+background: #79C8C7;
+}
 
 .mett__content{
 width: 100%;
@@ -123,6 +126,9 @@ margin-bottom: 25px;
 .mett_link{
     margin-right: 16px;
 }
+.mett_link:hover{
+background: #F67E7E;
+}
 .mett__spani{
     position: absolute;
     display:inline-block;
@@ -134,6 +140,10 @@ margin-bottom: 25px;
     bottom: -25px;
     left: 145px;   
 }
+.mett__spani:hover{
+    background:  #F67E7E;
+    }
+    
 @media only screen and (max-width: 768px) {
     .mett__list{
      display: grid;

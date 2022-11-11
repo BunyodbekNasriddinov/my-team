@@ -1016,6 +1016,10 @@ img {
   left: 145px;
 }
 
+.mett__span:hover {
+  background: #79C8C7;
+}
+
 .mett__content {
   width: 100%;
   max-width: 255px;
@@ -1034,6 +1038,10 @@ img {
   margin-right: 16px;
 }
 
+.mett_link:hover {
+  background: #F67E7E;
+}
+
 .mett__spani {
   position: absolute;
   display: inline-block;
@@ -1044,6 +1052,10 @@ img {
   font-size: 25px;
   bottom: -25px;
   left: 145px;
+}
+
+.mett__spani:hover {
+  background: #F67E7E;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1215,6 +1227,10 @@ img {
   color: #012F34;
   border-radius: 50px;
   background-color: #F67E7E;
+}
+
+.get__button:hover {
+  background-color: aqua;
 }
 
 .ask {
