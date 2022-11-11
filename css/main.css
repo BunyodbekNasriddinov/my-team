@@ -1177,81 +1177,9 @@ img {
     font-size: 30px;
     line-height: 30px;
   }
-<<<<<<< HEAD
-}
-.site-header {
-  padding: 73px 0;
-}
-
-.site-header__inner {
-  display: flex;
-  align-items: center;
-}
-
-.navbar {
-  width: 100%;
-  max-width: 870px;
-  margin-left: 80px;
-}
-
-.navbar__list {
-  width: 100%;
-  max-width: 870px;
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.navbar__item + .navbar__item {
-  margin-left: 40px;
-}
-
-.navbar__item + .navbar__item + .navbar__item {
-  margin-left: auto;
-}
-
-.navbar__link {
-  margin: 0;
-  padding: 0;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 28px;
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.contact-link {
-  padding: 10px 32px;
-  border: 2px solid #ffffff;
-  border-radius: 24px;
-}
-
-.menu-btn {
-  display: none;
-  margin-left: auto;
-  background-color: transparent;
-  border: none;
-}
-
-@media only screen and (max-width: 769px) {
-  .navbar {
-    margin-left: 48px;
-  }
-  .navbar__item + .navbar__item + .navbar__item {
-    margin-left: auto;
-  }
-}
-@media only screen and (max-width: 576px) {
-  .navbar {
-    display: none;
-  }
-  .menu-btn {
-    display: block;
-  }
 }
 .ask {
+  margin-bottom: 120px;
   background: url("/images/mett-bg1.svg");
   background-repeat: no-repeat;
   background-size: 200px 200px;
@@ -1427,6 +1355,4 @@ img {
   .ask__input {
     max-width: 325px;
   }
-=======
->>>>>>> 1294a8224d0311100fddfe93a18a638bde18bc98
 }/*# sourceMappingURL=main.css.map */
