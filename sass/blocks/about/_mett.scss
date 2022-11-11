@@ -2,15 +2,18 @@
 .mett{position: relative;
     padding: 140px 0;
       background: url("/images/mett-bg1.svg");
-      background-repeat: no-repeat;
-      background-size: 200px 200px;
-      background-position: top 0 left -60px;
      
+      background-repeat: no-repeat;
+     
+      background-size: 200px 200px;
+   
+      background-position-x:calc(50% - 650px) ;
+    
        
-        //   background: url("/images/mett-bg2.svg");
-        //   background-repeat: no-repeat;
-        //   background-size: 140px 100px;
-        //   background-position: bottom 0 right 0;
+    //   background: url("/images/mett-bg2.svg");
+    //   background-repeat: no-repeat;  
+    //   background-size: 140px 100px;
+    //   background-position-x:calc(50% + 650px) ;
           
         
       
@@ -47,7 +50,7 @@ flex-wrap: wrap;
           background: url("/images/mett-bg2.svg");
           background-repeat: no-repeat;
           background-size: 140px 100px;
-          background-position: bottom 0 right 0;
+        //   background-position-x:calc(50% + 250px) ;
           width: 140px;
           height: 100px;
           bottom: 10px;
@@ -103,6 +106,9 @@ color: #FFFFFF;
     left: 145px;
    
 }
+.mett__span:hover{
+background: #79C8C7;
+}
 
 .mett__content{
 width: 100%;
@@ -120,6 +126,9 @@ margin-bottom: 25px;
 .mett_link{
     margin-right: 16px;
 }
+.mett_link:hover{
+background: #F67E7E;
+}
 .mett__spani{
     position: absolute;
     display:inline-block;
@@ -131,6 +140,10 @@ margin-bottom: 25px;
     bottom: -25px;
     left: 145px;   
 }
+.mett__spani:hover{
+    background:  #F67E7E;
+    }
+    
 @media only screen and (max-width: 768px) {
     .mett__list{
      display: grid;

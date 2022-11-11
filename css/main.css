@@ -932,7 +932,7 @@ img {
   background: url("/images/mett-bg1.svg");
   background-repeat: no-repeat;
   background-size: 200px 200px;
-  background-position: top 0 left -60px;
+  background-position-x: calc(50% - 650px);
 }
 
 .mett__title {
@@ -964,7 +964,6 @@ img {
   background: url("/images/mett-bg2.svg");
   background-repeat: no-repeat;
   background-size: 140px 100px;
-  background-position: bottom 0 right 0;
   width: 140px;
   height: 100px;
   bottom: 10px;
@@ -1017,6 +1016,10 @@ img {
   left: 145px;
 }
 
+.mett__span:hover {
+  background: #79C8C7;
+}
+
 .mett__content {
   width: 100%;
   max-width: 255px;
@@ -1035,6 +1038,10 @@ img {
   margin-right: 16px;
 }
 
+.mett_link:hover {
+  background: #F67E7E;
+}
+
 .mett__spani {
   position: absolute;
   display: inline-block;
@@ -1045,6 +1052,10 @@ img {
   font-size: 25px;
   bottom: -25px;
   left: 145px;
+}
+
+.mett__spani:hover {
+  background: #F67E7E;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1083,7 +1094,12 @@ img {
   }
 }
 .some {
-  background: #012F34;
+  position: relative;
+  background: url("/images/some-bg.svg");
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  background-position-x: calc(50% - 650px);
+  background-color: #012F34;
 }
 
 .some__inner {
@@ -1095,10 +1111,6 @@ img {
   content: "";
   width: 200px;
   height: 200px;
-  background: url("/images/some-bg.svg");
-  background-repeat: no-repeat;
-  background-size: 200px 200px;
-  background-position: top 0 left 0;
 }
 
 .some__title {
@@ -1178,6 +1190,49 @@ img {
     line-height: 30px;
   }
 }
+.get {
+  background: url("/images/Get-bg.png");
+  background-repeat: no-repeat;
+  background-size: 200px 150px;
+  background-position-x: calc(50% - 650px);
+  background-position-y: 60px;
+  background-color: #F67E7E;
+}
+
+.get__inner {
+  width: 100%;
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 76px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.get__title {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* identical to box height, or 100% */
+  color: #012F34;
+}
+
+.get__button {
+  padding: 10px 33px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #012F34;
+  border-radius: 50px;
+  background-color: #F67E7E;
+}
+
+.get__button:hover {
+  background-color: aqua;
+}
+
 .ask {
   margin-bottom: 120px;
   background: url("/images/mett-bg1.svg");
@@ -1288,6 +1343,23 @@ img {
   background: none;
   border: none;
   border-bottom: 1px solid #fff;
+}
+
+.ask__input:hover {
+  color: #F67E7E;
+  border-bottom: 1px solid #F67E7E;
+}
+
+.ask__input:hover .ask__input::-moz-placeholder {
+  color: #ad0404;
+}
+
+.ask__input:hover .ask__input:-ms-input-placeholder {
+  color: #ad0404;
+}
+
+.ask__input:hover .ask__input::placeholder {
+  color: #ad0404;
 }
 
 .ask__textarea {
