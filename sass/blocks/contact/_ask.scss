@@ -127,6 +127,15 @@ border-bottom: 1px solid #fff;
 
 }
 
+.ask__input:hover{
+    color:  #F67E7E;
+    border-bottom: 1px solid  #F67E7E;
+}
+ .ask__input:hover .ask__input::placeholder{
+    color:  #ad0404;
+    
+}
+
 .ask__textarea {
     width: 100%;
     max-width: 540px;
