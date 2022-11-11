@@ -1,9 +1,9 @@
 .some{
-// position: relative;  background: url("/images/some-bg.svg");
-// background-repeat: no-repeat;
-// background-size: 200px 200px;
-// background-position: top 0 left 0;
-background: #012F34;
+position: relative;  background: url("/images/some-bg.svg");
+background-repeat: no-repeat;
+background-size: 200px 200px;
+background-position-x: calc(50% - 650px);
+background-color: #012F34;
 
 }
 .some__inner{
@@ -14,10 +14,10 @@ background: #012F34;
    content: '';
    width: 200px;
    height: 200px;
-    background: url("/images/some-bg.svg");
-background-repeat: no-repeat;
-background-size: 200px 200px;
-background-position: top 0 left 0;
+//     background: url("/images/some-bg.svg");
+// background-repeat: no-repeat;
+// background-size: 200px 200px;
+// background-position: top 0 left 0;
 }
 
 .some__title{

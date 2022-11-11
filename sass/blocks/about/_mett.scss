@@ -2,15 +2,18 @@
 .mett{position: relative;
     padding: 140px 0;
       background: url("/images/mett-bg1.svg");
-      background-repeat: no-repeat;
-      background-size: 200px 200px;
-      background-position: top 0 left -60px;
      
+      background-repeat: no-repeat;
+     
+      background-size: 200px 200px;
+   
+      background-position-x:calc(50% - 650px) ;
+    
        
-        //   background: url("/images/mett-bg2.svg");
-        //   background-repeat: no-repeat;
-        //   background-size: 140px 100px;
-        //   background-position: bottom 0 right 0;
+    //   background: url("/images/mett-bg2.svg");
+    //   background-repeat: no-repeat;  
+    //   background-size: 140px 100px;
+    //   background-position-x:calc(50% + 650px) ;
           
         
       
@@ -47,7 +50,7 @@ flex-wrap: wrap;
           background: url("/images/mett-bg2.svg");
           background-repeat: no-repeat;
           background-size: 140px 100px;
-          background-position: bottom 0 right 0;
+        //   background-position-x:calc(50% + 250px) ;
           width: 140px;
           height: 100px;
           bottom: 10px;
