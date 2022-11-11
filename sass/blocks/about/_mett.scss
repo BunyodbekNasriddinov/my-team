@@ -1,100 +1,109 @@
-
-.mett{position: relative;
-    padding: 140px 0;
-      background: url("/images/mett-bg1.svg");
-     
-      background-repeat: no-repeat;
-     
-      background-size: 200px 200px;
-   
-      background-position-x:calc(50% - 650px) ;
-    
-       
-    //   background: url("/images/mett-bg2.svg");
-    //   background-repeat: no-repeat;  
-    //   background-size: 140px 100px;
-    //   background-position-x:calc(50% + 650px) ;
-          
-        
-      
-    }
-  
-
-.mett__title{
-padding: 140px 0 64px;
-padding: 0;
-font-weight: 700;
-font-size: 48px;
-line-height: 48px;
-/* identical to box height, or 100% */
-
-text-align: center;
-
-color: #FFFFFF;
-}
-
-.mett__list{
-margin: 0;
-padding: 0;
-list-style: none;
-display: flex;
-align-items: center;
-column-gap: 30px;
-row-gap: 76px;
-flex-wrap: wrap;
-}
-.mett__list::after{
-    content: '';
-    position: absolute;
-         
-          background: url("/images/mett-bg2.svg");
-          background-repeat: no-repeat;
-          background-size: 140px 100px;
-        //   background-position-x:calc(50% + 250px) ;
-          width: 140px;
-          height: 100px;
-          bottom: 10px;
-          right: 0;
-
-}
-.mett__item{
+.mett {
     position: relative;
-width: 100%;
-max-width: 350px;
-background: #012F34;
-text-align: center;
+    padding: 140px 0;
+    background: url("/images/mett-bg1.svg"), url("/images/mett-bg2.svg");
+
+    background-repeat: no-repeat, no-repeat;
+
+    background-size: 200px 200px, 140px 100px;
+
+    background-position: calc(50% - 650px) top, calc(50% + 650px) bottom;
+
+
 }
-.mett__img{
-margin: 32px 0;
+
+// .mett{
+
+//   background: url("/images/mett-bg2.svg");
+//   background-repeat: no-repeat;  
+//   background-size: 140px 100px;
+//   background-position-x:calc(50% + 650px) ;
+//   background-position-y:calc(100%);
+
+
+// }
+
+
+.mett__title {
+    padding: 140px 0 64px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    color: #FFFFFF;
 }
-.mett__titles{
+
+.mett__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 76px;
+    flex-wrap: wrap;
+}
+
+// .mett__list::after{
+//     content: '';
+//     position: absolute;
+
+//           background: url("/images/mett-bg2.svg");
+//           background-repeat: no-repeat;
+//           background-size: 140px 100px;
+//         //   background-position-x:calc(50% + 250px) ;
+//           width: 140px;
+//           height: 100px;
+//           bottom: 10px;
+//           right: 0;
+
+// }
+.mett__item {
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    background: #012F34;
+    text-align: center;
+}
+
+.mett__img {
+    margin: 32px 0;
+}
+
+.mett__titles {
     margin: 0;
     padding: 0;
     font-weight: 700;
-font-size: 18px;
-line-height: 28px;
-/* identical to box height, or 156% */
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
 
-text-align: center;
+    text-align: center;
 
-color: #79C8C7;
+    color: #79C8C7;
 }
-.mett__text{
+
+.mett__text {
     margin: 0;
     padding: 0;
     padding-bottom: 56px;
     font-size: 15px;
-line-height: 25px;
-/* identical to box height, or 167% */
+    line-height: 25px;
+    /* identical to box height, or 167% */
 
-text-align: center;
+    text-align: center;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
 }
-.mett__span{
+
+.mett__span {
     position: absolute;
-    display:block;
+    display: block;
     line-height: 15px;
     // width: 100%;
     // max-width: 50px;
@@ -104,90 +113,96 @@ color: #FFFFFF;
     font-size: 25px;
     bottom: -25px;
     left: 145px;
-   
-}
-.mett__span:hover{
-background: #79C8C7;
+
 }
 
-.mett__content{
-width: 100%;
-max-width: 255px;
-margin: 0 auto;
+.mett__span:hover {
+    background: #79C8C7;
+}
 
-padding: 35px 0;
+.mett__content {
+    width: 100%;
+    max-width: 255px;
+    margin: 0 auto;
+
+    padding: 35px 0;
 }
-.mett__imgss{
-display: flex;
-align-items: center;
-justify-content: center;
-margin-bottom: 25px;
+
+.mett__imgss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
 }
-.mett_link{
+
+.mett_link {
     margin-right: 16px;
 }
-.mett_link:hover{
-background: #F67E7E;
+
+.mett_link:hover {
+    background: #F67E7E;
 }
-.mett__spani{
+
+.mett__spani {
     position: absolute;
-    display:inline-block;
+    display: inline-block;
     line-height: 15px;
     padding: 20px 20px;
     background: #79C8C7;
     border-radius: 50%;
     font-size: 25px;
     bottom: -25px;
-    left: 145px;   
+    left: 145px;
 }
-.mett__spani:hover{
-    background:  #F67E7E;
-    }
-    
+
+.mett__spani:hover {
+    background: #F67E7E;
+}
+
 @media only screen and (max-width: 768px) {
-    .mett__list{
-     display: grid;
-     grid-template-columns: repeat(2,327px );
-    // margin-left:200px;
-// flex-direction: column;
+    .mett__list {
+        display: grid;
+        grid-template-columns: repeat(2, 327px);
+        // margin-left:200px;
+        // flex-direction: column;
 
     }
-    .mett__item{
+
+    .mett__item {
         max-width: 327px;
     }
-    .container{
+
+    .container {
         max-width: 768px;
     }
 }
+
 @media only screen and (max-width: 568px) {
-    .mett{
+    .mett {
         padding: 140px 0;
-          background: url("/images/mett-bg1.svg");
-          background-repeat: no-repeat;
-          background-size: 200px 200px;
-          background-position: top -60px left -60px;
-          
-        }
-    .mett__list{
-   display: flex;
-   flex-direction: column;
-   margin: 0;
-   
-       }
-       .container{
+        background: url("/images/mett-bg1.svg");
+        background-repeat: no-repeat;
+        background-size: 200px 200px;
+        background-position: top -60px left -60px;
+
+    }
+
+    .mett__list {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+
+    }
+
+    .container {
         max-width: 568px;
     }
-    .mett__span{
+
+    .mett__span {
         left: 120px;
     }
-    .mett__spani{
+
+    .mett__spani {
         left: 120px;
     }
 }
-
-
-
-
-
-
-

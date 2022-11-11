@@ -1,9 +1,9 @@
 .ask {
     margin-bottom: 120px;
-    background: url("/images/mett-bg1.svg");
-    background-repeat: no-repeat;
-    background-size: 200px 200px;
-    background-position: top 0 left -70px;
+    background: url("/images/mett-bg1.svg"),url("/images/ask-bg2.png");
+    background-repeat: no-repeat,no-repeat;
+    background-size: 200px 200px,125px 200px;
+    background-position:calc(50% - 650px) top,calc(50% + 670px) bottom;
 }
 
 .ask__inner {
@@ -132,7 +132,8 @@ border-bottom: 1px solid #fff;
     border-bottom: 1px solid  #F67E7E;
 }
  .ask__input::placeholder{
-    color:  #ad0404;
+    color:  #fff;
+    opacity: 0.8;
     
 }
 
@@ -151,6 +152,10 @@ border-bottom: 1px solid #fff;
     border: none;
     border-bottom: 1px solid #fff;
    
+}
+.ask__textarea::placeholder{
+    color: #FFFFFF;
+    opacity: 0.8;
 }
 
 .ask__button {
@@ -171,6 +176,9 @@ border: none;
     background-color: lawngreen;
 }
 @media only screen and (max-width: 768px) {
+    .ask{
+        background-position:calc(50% - 300px) top,calc(50% + 370px) bottom;
+    }
  .ask__inner{
 flex-direction: column;
  }
