@@ -40,6 +40,45 @@ justify-content: space-between;
     border-radius: 50px;
     background-color:#F67E7E ;
 }
-.get__button:hover{
-    background-color:aqua ;
+@media only screen and (max-width: 768px) {
+	.container{
+		max-width: 768px;
+	
+	}
+	.get{
+		background-position-x: calc(50% - 270px );
+		background-position-y:60px;
+	}
+	.get__title{
+		font-size: 32px;
+line-height: 32px;
+	}
+	.get__inner{
+		max-width: 573px;
+	}
+}
+@media only screen and (max-width: 578px) {
+.container{
+	max-width: 578px;
+
+}
+.get{
+	background-position-x: calc(50% - 150px );
+		background-position-y:100%;
+}
+.get__inner{
+	flex-direction: column;
+justify-content: center;
+	max-width: 327px;
+
+}
+.get__title{
+	margin-bottom: 24px;
+	font-size: 32px;
+line-height: 32px;
+
+
+text-align: center;
+}
+
 }
